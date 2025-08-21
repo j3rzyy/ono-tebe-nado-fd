@@ -166,6 +166,10 @@
   min-height: 596px;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card-link,
 .card {
   height: 100%;
@@ -217,7 +221,7 @@
 }
 
 .lots__look-more-link {
-  display: block;
+  display: inline-block;
   margin: 30px 40px;
   color: #000;
   font-weight: 400;
@@ -230,7 +234,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  margin-top: 152px;
+  margin-top: 124px;
   margin-right: 24px;
   margin-left: 24px;
 }
@@ -279,9 +283,9 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  min-height: 180px;
-  margin-top: 130px;
-  padding: 50px;
+  margin-top: 178px;
+  padding: 0 50px;
+  padding-bottom: 82px;
 }
 
 .footer__address {
